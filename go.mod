@@ -7,6 +7,7 @@ require gorm.io/gorm v1.21.16
 require github.com/mattn/go-sqlite3 v1.14.8 // indirect
 
 require (
+	github.com/gin-contrib/cors v1.3.1
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.7.4 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
