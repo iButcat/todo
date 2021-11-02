@@ -34,7 +34,7 @@ func main() {
 	router.Use(gin.Recovery())
 	router.Use(cors.New(cors.Config{
 		AllowOrigins:     []string{"*"},
-		AllowMethods:     []string{"GET", "POST", "OPTIONS", "PUT"},
+		AllowMethods:     []string{"GET", "POST", "OPTIONS", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Content-Type", "Content-Length", "Accept-Encoding", "X-CSRF-Token", "Authorization", "accept", "origin", "Cache-Control", "X-Requested-With"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
